@@ -10,7 +10,9 @@ around. It supports a number of different modes and uses a number of
 techniques in order to ensure that only files that are different are 
 copied, reducing the number of slow writes that are performed on slow 
 devices. Also attributes such as timestamps can easily be copied and 
-changes in time due to daylight savings can be ignored. 
+changes in time due to daylight savings can be ignored.  Long paths and 
+UNC paths are supported in the source and destination to allow easy 
+syncs across networks. 
 
 User Interface
 ==============
@@ -71,7 +73,8 @@ Short
 	This test is a smaller version of the full test below. It checks the 
 	first and last 1024 bytes of the file. It is ideal when working with 
 	archives, especially zip files, as they stroe a CRC32 check in this 
-	space and the test is much quicker than performing a full file. 
+	space and the test is much quicker than performing a full file. It 
+    also checks the files are of an identical length.
 
 Full
 	The full test does a byte by byte comparison of both files, reading 
