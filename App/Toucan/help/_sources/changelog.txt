@@ -2,39 +2,8 @@
 Changelog
 =========
 
-3.1
-===
-
-
-- Improved Rules support, including
-    - Improved validation
-    - A new interface
-    - Wildcard support in the Simple type
-    - Seperate file and folder includes
-    - Absolute excludes
-- Username variable
-- Improved input validation
-- Tooltips everywhere
-- Improved progress display
-    - Fixed command line output
-    - Improved UI responsivness
-    - Autoscroll toggle added
-    - UI now saves position and size
-- Scripting interface improvements
-    - Undo and redo buttons
-    - Interface to add existing jobs and commands
-- Long path support in sync
-- UNC path support in sync
-- Long UNC path support in sync
-
-3.0.4 (2010-11-30)
-==================
-
-
--  Bug fixes
-
-3.0.3 (2010-09-26)
-==================
+3.0.3
+=====
 
 
 -  Bug fixes
