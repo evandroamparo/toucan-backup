@@ -1,14 +1,6 @@
-print("Documentos")
-sync("Documentos")
-print("Imagens")
-sync("Imagens")
-print("Músicas")
-sync("Músicas")
-print("Programas")
-sync("Programas")
-print("Vídeos")
-sync("Vídeos")
-print("Repositório")
-sync("Repositório")
-print("Downloads")
-sync("Downloads")
+jobs = {"Documentos", "Imagens", "Músicas", "Programas", "Vídeos", "Repositório", "Downloads"}
+
+for i, v in pairs(jobs) do
+  print(i  v)
+  sync(v)
+end
